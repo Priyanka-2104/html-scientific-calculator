@@ -1,6 +1,6 @@
-# Web Calculator
+# HTML Scientific Calculator
 
-This is a simple client-side calculator that supports arithmetic and trigonometric expressions.
+This is a simple client-side scientific calculator that supports arithmetic and trigonometric expressions.
 
 Features:
 - Evaluate arithmetic expressions, powers, parentheses, factorials, logs, etc.

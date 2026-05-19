@@ -19,8 +19,8 @@
 </head>
 <body>
   <div class="card">
-    <h2>Calculator — Arithmetic & Trigonometry</h2>
-    <p>Type an expression and press <strong>Evaluate</strong>. Trig functions expect radians; use <code>sin_deg(x)</code> for degrees.</p>
+    <h2>HTML Scientific Calculator</h2>
+    <p>Type an expression and press <strong>Evaluate</strong>. Trig functions follow the selected unit (Radians or Degrees); use <code>sin_deg(x)</code> for explicit degrees. Supported helpers: <code>ln(x)</code> (natural log), <code>log(x)</code> (natural log), <code>log10(x)</code>, <code>pow(a,b)</code> or <code>a^b</code>, <code>sqrt(x)</code>, <code>factorial(n)</code>, and <code>pi</code>.</p>
 
     <textarea id="expr" placeholder="e.g. 2 + 3*sin(pi/2)"></textarea>
 
@@ -46,6 +46,12 @@
       <div class="example" data-ex="sin_deg(90)">sin_deg(90)</div>
       <div class="example" data-ex="sqrt(2)">sqrt(2)</div>
       <div class="example" data-ex="factorial(6)">factorial(6)</div>
+      <div class="example" data-ex="ln(e)">ln(e)</div>
+      <div class="example" data-ex="log(10)">ln(10)</div>
+      <div class="example" data-ex="sqrt(16)">sqrt(16)</div>
+      <div class="example" data-ex="2^8">2^8</div>
+      <div class="example" data-ex="pow(2,8)">pow(2,8)</div>
+      <div class="example" data-ex="pi * 2">pi * 2</div>
     </div>
 
     <footer>Built with math.js (client-side). Only whitelisted functions are used.</footer>
@@ -79,6 +85,8 @@
         tanh: mathjs.tanh,
         sqrt: mathjs.sqrt,
         log: mathjs.log,
+        ln: mathjs.log,
+        pow: mathjs.pow,
         log10: mathjs.log10,
         exp: mathjs.exp,
         abs: mathjs.abs,
