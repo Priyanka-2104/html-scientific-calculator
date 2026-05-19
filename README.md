@@ -6,6 +6,12 @@ This project supports arithmetic operations, trigonometric functions, logarithms
 
 ---
 
+## 🌐 Live Demo
+
+https://priyanka-2104.github.io/html-scientific-calculator/
+
+---
+
 ## ✨ Features
 
 - Basic arithmetic operations
